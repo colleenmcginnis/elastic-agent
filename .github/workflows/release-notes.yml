@@ -43,7 +43,7 @@ jobs:
         id: get-minor
         uses: actions/github-script@v8
         with:
-          script: return ${{ inputs.version }}.replace(/^(\d+\.\d+).+$/m, "$1")
+          script: return "${{ inputs.version }}".replace(/^(\d+\.\d+).+$/m, "$1")
           result-encoding: string
       - name: Open PR
         uses: peter-evans/create-pull-request@v7
