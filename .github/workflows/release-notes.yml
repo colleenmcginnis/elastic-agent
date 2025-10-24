@@ -55,8 +55,10 @@ jobs:
             changelog/
             docs/
           labels: ${{ env.labels }}
-          title: Add ${{ env.product }} ${{ inputs.version }} release notes
+          title: "[TEST] Add ${{ env.product }} ${{ inputs.version }} release notes"
           body: |
+            ⚠️ **This is a test!** ⚠️
+
             Adds ${{ env.product }} ${{ inputs.version }} release notes.
 
             ## Checklist
