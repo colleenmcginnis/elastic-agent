@@ -1,0 +1,16 @@
+version: 9.2.0+build1234567
+entries:
+    - kind: feature
+      summary: Add awss3receiver
+      description: ""
+      component: elastic-agent
+      pr:
+        - https://github.com/elastic/elastic-agent/pull/10515
+      issue:
+        - https://github.com/elastic/obs-integration-team/issues/604
+      impact: ""
+      action: ""
+      timestamp: 1760341895
+      file:
+        name: 1760341895-edot-add-awss3receiver.yaml
+        checksum: bf127645f0d12f626d51a9d2bd9e50c55e40636e
