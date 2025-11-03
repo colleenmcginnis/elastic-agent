@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       bc_commit_sha:
-        description: 'Commit SHA for the BC'
+        description: 'Commit SHA for the build candidate'
         type: string
         required: true
       version:
