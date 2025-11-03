@@ -14,7 +14,7 @@ on:
 
 jobs:
   build-release-notes:
-    uses: colleenmcginnis/elastic-agent-changelog-tool/.github/workflows/.github/workflows/generate-release-notes.yml@centralize-workflow
+    uses: colleenmcginnis/elastic-agent-changelog-tool/.github/workflows/generate-release-notes.yml@centralize-workflow
     with:
       product: Elastic Agent
       labels: docs,forwardport-main,release,skip-changelog,Team:Docs
