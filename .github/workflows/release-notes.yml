@@ -22,7 +22,4 @@ jobs:
       version: ${{ inputs.version }}
       release_manager: ${{ github.triggering_actor }}
     permissions:
-      deployments: write
-      id-token: write
-      contents: read
-      pull-requests: write
+      contents: write
